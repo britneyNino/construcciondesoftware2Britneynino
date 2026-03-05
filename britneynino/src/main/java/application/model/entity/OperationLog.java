@@ -2,6 +2,11 @@ package application.model.entity;
 
 import java.time.LocalDateTime;
 import java.util.Map;
+import.lombok.Getter;
+import.lombok.Setter;
+
+@getter
+@setter
 
 public class OperationLog {
 

@@ -3,7 +3,11 @@ package application.model.entity;
 import application.model.abstractmodel.BankProduct;
 import application.model.enums.LoanStatus;
 import java.time.LocalDate;
+import.lombok.Getter;
+import.lombok.Setter;
 
+@getter
+@setter
 public class Loan extends BankProduct {
 
     private double requestedAmount;

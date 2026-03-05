@@ -2,6 +2,11 @@ package application.model.entity;
 
 import application.model.enums.SystemRole;
 import application.model.enums.UserStatus;
+import.lombok.Getter;
+import.lombok.Setter;
+
+@getter
+@setter
 
 public class User {
 
