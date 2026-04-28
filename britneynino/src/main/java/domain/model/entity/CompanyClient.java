@@ -1,15 +1,13 @@
 package application.model.entity;
 
+import lombok.Getter;
+import lombok.Setter;
 import application.model.abstractmodel.Client;
-import.lombok.Getter;
-import.lombok.Setter;
 
-@getter
-@setter
-
+@Getter
+@Setter
 public class CompanyClient extends Client {
 
     private String companyName;
-    private String taxId;
-
+    private String nit;
 }

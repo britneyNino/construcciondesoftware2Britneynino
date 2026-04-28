@@ -1,15 +1,16 @@
 package application.model.abstractmodel;
 
-import java.util.Date;
-import.lombok.Getter;
-import.lombok.Setter;
+import java.time.LocalDate;
+import lombok.Getter;
+import lombok.Setter;
+import application.model.enums.ProductCategory;
 
-@getter
-@setter
-
+@Getter
+@Setter
 public abstract class BankProduct {
 
     protected String productId;
-    protected Date creationDate;
+    protected LocalDate creationDate;
+    protected ProductCategory productCategory;
 
 }

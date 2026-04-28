@@ -1,22 +1,18 @@
 package application.model.entity;
 
+import lombok.Getter;
+import lombok.Setter;
 import application.model.enums.SystemRole;
 import application.model.enums.UserStatus;
-import.lombok.Getter;
-import.lombok.Setter;
 
-@getter
-@setter
-
+@Getter
+@Setter
 public class User {
 
-    private int userId;
-    private String fullName;
-    private String identificationNumber;
-    private String email;
-    private String phone;
-    private String address;
+    private String userId;
+    private String username;
+    private String password;
+
     private SystemRole role;
     private UserStatus status;
-
 }

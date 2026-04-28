@@ -1,15 +1,15 @@
 package application.model.entity;
 
-import java.util.Date;
+import java.time.LocalDate;
+import lombok.Getter;
+import lombok.Setter;
 import application.model.abstractmodel.Client;
-import.lombok.Getter;
-import.lombok.Setter;
 
-@getter
-@setter
-
+@Getter
+@Setter
 public class NaturalPersonClient extends Client {
 
-    private Date birthDate;
-
+    private String firstName;
+    private String lastName;
+    private LocalDate birthDate;
 }

@@ -1,7 +1,7 @@
 package application.model.enums;
 
 public enum LoanStatus {
-    UNDER_REVIEW,
+    PENDING,
     APPROVED,
     REJECTED,
     DISBURSED

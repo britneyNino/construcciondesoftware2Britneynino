@@ -1,29 +1,24 @@
 package application.model.entity;
 
-import application.model.abstractmodel.BankProduct;
-import application.model.enums.LoanStatus;
+import java.math.BigDecimal;
 import java.time.LocalDate;
-import.lombok.Getter;
-import.lombok.Setter;
+import lombok.Getter;
+import lombok.Setter;
+import application.model.abstractmodel.BankProduct;
+import application.model.abstractmodel.Client;
+import application.model.enums.LoanStatus;
+import application.model.enums.LoanType;
 
-@getter
-@setter
+@Getter
+@Setter
 public class Loan extends BankProduct {
 
-    private double requestedAmount;
-    private double approvedAmount;
-    private double interestRate;
-    private int termMonths;
+    private BigDecimal amount;
+    private LoanType loanType;
     private LoanStatus status;
+    private int termMonths;
+    private LocalDate approvalDate;
 
-    public Loan(String productId, LocalDate creationDate, double requestedAmount,
-                double interestRate, int termMonths) {
-
-        super(productId, creationDate);
-        this.requestedAmount = requestedAmount;
-        this.interestRate = interestRate;
-        this.termMonths = termMonths;
-        this.status = LoanStatus.UNDER_REVIEW;
-    }
-
+    // Relación
+    private Client client;
 }
