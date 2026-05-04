@@ -1,8 +1,11 @@
-package application.model.enums;
+package domain.model.enums;
 
 public enum SystemRole {
-    CLIENT,
-    EMPLOYEE,
-    ADMIN,
-    ANALYST
+    NATURAL_CLIENT,
+    COMPANY_CLIENT,
+    TELLER,
+    COMMERCIAL_EMPLOYEE,
+    COMPANY_EMPLOYEE,
+    COMPANY_SUPERVISOR,
+    INTERNAL_ANALYST
 }

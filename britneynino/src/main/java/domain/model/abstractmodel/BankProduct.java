@@ -1,16 +1,18 @@
-package application.model.abstractmodel;
+package domain.model.abstractmodel;
+
+import domain.model.enums.ProductCategory;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDate;
-import lombok.Getter;
-import lombok.Setter;
-import application.model.enums.ProductCategory;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public abstract class BankProduct {
 
     protected String productId;
     protected LocalDate creationDate;
     protected ProductCategory productCategory;
-
 }

@@ -1,6 +1,7 @@
-package application.model.enums;
+package domain.model.enums;
 
 public enum ProductCategory {
     ACCOUNT,
-    LOAN
+    LOAN,
+    SERVICE
 }

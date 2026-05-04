@@ -1,4 +1,4 @@
-package application.model.enums;
+package domain.model.enums;
 
 public enum AccountStatus {
     ACTIVE,

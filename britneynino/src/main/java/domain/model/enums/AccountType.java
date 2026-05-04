@@ -1,6 +1,8 @@
-package application.model.enums;
+package domain.model.enums;
 
 public enum AccountType {
     SAVINGS,
-    CURRENT
+    CHECKING,
+    PERSONAL,
+    COMPANY
 }

@@ -1,15 +1,18 @@
-package application.model.entity;
+package domain.model.entity;
+
+import domain.model.abstractmodel.Client;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDate;
-import lombok.Getter;
-import lombok.Setter;
-import application.model.abstractmodel.Client;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class NaturalPersonClient extends Client {
 
     private String firstName;
     private String lastName;
-    private LocalDate birthDate;
+    private LocalDate birthDate;   // Validacion: debe ser mayor de 18 anos
 }
