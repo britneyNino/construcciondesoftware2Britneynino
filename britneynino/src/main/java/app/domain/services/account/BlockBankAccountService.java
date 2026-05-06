@@ -1,4 +1,4 @@
-package application.services.account;
+package app.domain.services.account;
 
 import application.ports.BankAccountPort;
 

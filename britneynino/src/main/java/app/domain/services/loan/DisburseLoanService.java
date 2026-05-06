@@ -2,7 +2,7 @@ package application.services.loan;
 
 import application.ports.LoanPort;
 
-public class DisburseLoanService implements LoanPort {
+public class DisburseLoanService  {
 
     @Override
     public void disburseLoan(String loanId) {
@@ -14,12 +14,4 @@ public class DisburseLoanService implements LoanPort {
         System.out.println("Loan disbursed");
     }
 
-    @Override
-    public void requestLoan(String clientId, double amount) { }
-
-    @Override
-    public void approveLoan(String loanId) { }
-
-    @Override
-    public void rejectLoan(String loanId) { }
 }
