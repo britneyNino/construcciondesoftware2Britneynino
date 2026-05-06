@@ -1,7 +1,7 @@
-package domain.model.entity;
+package app.domain.model.entity;
 
-import domain.model.enums.OperationType;
-import domain.model.enums.SystemRole;
+import app.domain.model.enums.OperationType;
+import app.domain.model.enums.SystemRole;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

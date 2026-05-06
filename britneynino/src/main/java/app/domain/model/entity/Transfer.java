@@ -1,6 +1,6 @@
-package domain.model.entity;
+package app.domain.model.entity;
 
-import domain.model.enums.TransferStatus;
+import app.domain.model.enums.TransferStatus;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

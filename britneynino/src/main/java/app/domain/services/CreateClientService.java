@@ -1,9 +1,9 @@
-package domain.services;
+package app.domain.services;
 
-import domain.exceptions.BusinessException;
-import domain.model.abstractmodel.Client;
-import domain.model.entity.NaturalPersonClient;
-import domain.ports.out.ClientPort;
+import app.domain.exceptions.BusinessException;
+import app.domain.model.abstractmodel.Client;
+import app.domain.model.entity.NaturalPersonClient;
+import app.domain.ports.out.ClientPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

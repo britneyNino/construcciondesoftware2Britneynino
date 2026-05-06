@@ -1,8 +1,8 @@
-package domain.services;
+package app.domain.services;
 
-import domain.exceptions.NotFoundException;
-import domain.model.entity.User;
-import domain.ports.out.UserPort;
+import app.domain.exceptions.NotFoundException;
+import app.domain.model.entity.User;
+import app.domain.ports.out.UserPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,11 +1,11 @@
-package domain.services;
+package app.domain.services;
 
-import domain.exceptions.BusinessException;
-import domain.model.entity.BankAccount;
-import domain.model.enums.AccountStatus;
-import domain.model.enums.UserStatus;
-import domain.ports.out.BankAccountPort;
-import domain.ports.out.ClientPort;
+import app.domain.exceptions.BusinessException;
+import app.domain.model.entity.BankAccount;
+import app.domain.model.enums.AccountStatus;
+import app.domain.model.enums.UserStatus;
+import app.domain.ports.out.BankAccountPort;
+import app.domain.ports.out.ClientPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

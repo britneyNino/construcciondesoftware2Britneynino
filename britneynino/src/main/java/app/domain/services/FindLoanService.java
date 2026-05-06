@@ -1,8 +1,8 @@
-package domain.services;
+package app.domain.services;
 
-import domain.exceptions.NotFoundException;
-import domain.model.entity.Loan;
-import domain.ports.out.LoanPort;
+import app.domain.exceptions.NotFoundException;
+import app.domain.model.entity.Loan;
+import app.domain.ports.out.LoanPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package domain.model.abstractmodel;
+package app.domain.model.abstractmodel;
 
-import domain.model.entity.User;
+import app.domain.model.entity.User;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

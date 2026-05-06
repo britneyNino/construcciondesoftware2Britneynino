@@ -1,10 +1,10 @@
-package domain.model.entity;
+package app.domain.model.entity;
 
-import domain.model.abstractmodel.BankProduct;
-import domain.model.abstractmodel.Client;
-import domain.model.enums.LoanStatus;
-import domain.model.enums.LoanType;
-import domain.model.enums.ProductCategory;
+import app.domain.model.abstractmodel.BankProduct;
+import app.domain.model.abstractmodel.Client;
+import app.domain.model.enums.LoanStatus;
+import app.domain.model.enums.LoanType;
+import app.domain.model.enums.ProductCategory;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,8 +1,8 @@
-package domain.services;
+package app.domain.services;
 
-import domain.exceptions.NotFoundException;
-import domain.model.entity.Transfer;
-import domain.ports.out.TransferPort;
+import app.domain.exceptions.NotFoundException;
+import app.domain.model.entity.Transfer;
+import app.domain.ports.out.TransferPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

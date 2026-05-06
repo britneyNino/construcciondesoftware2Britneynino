@@ -1,6 +1,6 @@
-package domain.model.abstractmodel;
+package app.domain.model.abstractmodel;
 
-import domain.model.enums.ProductCategory;
+import app.domain.model.enums.ProductCategory;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

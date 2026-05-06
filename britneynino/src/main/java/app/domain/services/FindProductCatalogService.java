@@ -1,8 +1,8 @@
-package domain.services;
+package app.domain.services;
 
-import domain.exceptions.NotFoundException;
-import domain.model.entity.BankProductCatalog;
-import domain.ports.out.BankProductCatalogPort;
+import app.domain.exceptions.NotFoundException;
+import app.domain.model.entity.BankProductCatalog;
+import app.domain.ports.out.BankProductCatalogPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

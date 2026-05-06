@@ -1,4 +1,4 @@
-package domain.model.enums;
+package app.domain.model.enums;
 
 public enum OperationType {
     ACCOUNT_OPENED,

@@ -1,14 +1,14 @@
-package domain.services;
+package app.domain.services;
 
-import domain.exceptions.BusinessException;
-import domain.exceptions.NotFoundException;
-import domain.model.entity.Loan;
-import domain.model.entity.OperationLog;
-import domain.model.enums.LoanStatus;
-import domain.model.enums.OperationType;
-import domain.model.enums.SystemRole;
-import domain.ports.out.LoanPort;
-import domain.ports.out.OperationLogPort;
+import app.domain.exceptions.BusinessException;
+import app.domain.exceptions.NotFoundException;
+import app.domain.model.entity.Loan;
+import app.domain.model.entity.OperationLog;
+import app.domain.model.enums.LoanStatus;
+import app.domain.model.enums.OperationType;
+import app.domain.model.enums.SystemRole;
+import app.domain.ports.out.LoanPort;
+import app.domain.ports.out.OperationLogPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package domain.model.enums;
+package app.domain.model.enums;
 
 // Enunciado: Pendiente, En espera de aprobacion, Aprobada, Ejecutada, Rechazada, Vencida
 public enum TransferStatus {
