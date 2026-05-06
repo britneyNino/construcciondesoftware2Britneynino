@@ -1,8 +1,11 @@
-package application.model.enums;
+package domain.model.enums;
 
+// Enunciado: En estudio -> Aprobado/Rechazado -> Desembolsado -> En mora / Cancelado
 public enum LoanStatus {
-    PENDING,
+    UNDER_REVIEW,
     APPROVED,
     REJECTED,
-    DISBURSED
+    DISBURSED,
+    IN_DEFAULT,
+    CANCELLED
 }

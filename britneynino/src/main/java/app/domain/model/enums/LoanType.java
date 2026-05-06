@@ -1,7 +1,8 @@
-package application.model.enums;
+package domain.model.enums;
 
 public enum LoanType {
-    PERSONAL,
+    CONSUMER,
+    VEHICLE,
     MORTGAGE,
-    VEHICLE
+    COMPANY
 }
