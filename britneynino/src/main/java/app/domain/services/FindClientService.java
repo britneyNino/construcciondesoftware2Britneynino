@@ -11,22 +11,22 @@ import java.util.List;
 @Service
 public class FindClientService {
 
-    private final ClientPort clientPort;
+	private final ClientPort clientPort;
 
-    @Autowired
-    public FindClientService(ClientPort clientPort) {
-        this.clientPort = clientPort;
-    }
+	@Autowired
+	public FindClientService(ClientPort clientPort) {
+		this.clientPort = clientPort;
+	}
 
-    public Client findByIdentification(String identification) throws NotFoundException {
-        Client client = clientPort.findByIdentification(identification);
-        if (client == null) {
-            throw new NotFoundException("Client not found: " + identification);
-        }
-        return client;
-    }
+	public Client findByIdentification(String identification) throws NotFoundException {
+		Client client = clientPort.findByIdentification(identification);
+		if (client == null) {
+			throw new NotFoundException("Client not found: " + identification);
+		}
+		return client;
+	}
 
-    public List<Client> findAll() {
-        return clientPort.findAll();
-    }
+	public List<Client> findAll() {
+		return clientPort.findAll();
+	}
 }

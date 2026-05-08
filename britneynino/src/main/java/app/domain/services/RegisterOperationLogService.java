@@ -14,38 +14,38 @@ import java.util.UUID;
 @Service
 public class RegisterOperationLogService {
 
-    private final OperationLogPort operationLogPort;
+	private final OperationLogPort operationLogPort;
 
-    @Autowired
-    public RegisterOperationLogService(OperationLogPort operationLogPort) {
-        this.operationLogPort = operationLogPort;
-    }
+	@Autowired
+	public RegisterOperationLogService(OperationLogPort operationLogPort) {
+		this.operationLogPort = operationLogPort;
+	}
 
-    // Registro inmutable: id y timestamp siempre generados aqui
-    public void registerOperation(OperationLog operationLog) throws BusinessException {
-        if (operationLog.getOperationType() == null) {
-            throw new BusinessException("Operation type is required.");
-        }
-        if (operationLog.getUserId() == null || operationLog.getUserId().isBlank()) {
-            throw new BusinessException("User id is required for traceability.");
-        }
-        if (operationLog.getAffectedProductId() == null || operationLog.getAffectedProductId().isBlank()) {
-            throw new BusinessException("Affected product id is required.");
-        }
-        operationLog.setLogId(UUID.randomUUID().toString());
-        operationLog.setTimestamp(LocalDateTime.now());
-        operationLogPort.append(operationLog);
-    }
+	// Registro inmutable: id y timestamp siempre generados aqui
+	public void registerOperation(OperationLog operationLog) throws BusinessException {
+		if (operationLog.getOperationType() == null) {
+			throw new BusinessException("Operation type is required.");
+		}
+		if (operationLog.getUserId() == null || operationLog.getUserId().isBlank()) {
+			throw new BusinessException("User id is required for traceability.");
+		}
+		if (operationLog.getAffectedProductId() == null || operationLog.getAffectedProductId().isBlank()) {
+			throw new BusinessException("Affected product id is required.");
+		}
+		operationLog.setLogId(UUID.randomUUID().toString());
+		operationLog.setTimestamp(LocalDateTime.now());
+		operationLogPort.append(operationLog);
+	}
 
-    public List<OperationLog> findByProductId(String productId) {
-        return operationLogPort.findByProductId(productId);
-    }
+	public List<OperationLog> findByAffectedProductId(String affectedProductId) {
+		return operationLogPort.findByAffectedProductId(affectedProductId);
+	}
 
-    public List<OperationLog> findByUserId(String userId) {
-        return operationLogPort.findByUserId(userId);
-    }
+	public List<OperationLog> findByUserId(String userId) {
+		return operationLogPort.findByUserId(userId);
+	}
 
-    public List<OperationLog> findByOperationType(OperationType operationType) {
-        return operationLogPort.findByOperationType(operationType);
-    }
+	public List<OperationLog> findByOperationType(OperationType operationType) {
+		return operationLogPort.findByOperationType(operationType);
+	}
 }

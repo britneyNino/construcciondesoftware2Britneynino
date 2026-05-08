@@ -1,0 +1,382 @@
+﻿[
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\BritneyninoApplication.java",
+        "NonEmptyLines":  9,
+        "ClassName":  "BritneyninoApplication"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\exceptions\\BusinessException.java",
+        "NonEmptyLines":  6,
+        "ClassName":  "BusinessException"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\exceptions\\NotFoundException.java",
+        "NonEmptyLines":  6,
+        "ClassName":  "NotFoundException"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\abstractmodel\\BankProduct.java",
+        "NonEmptyLines":  17,
+        "ClassName":  "BankProduct"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\abstractmodel\\Client.java",
+        "NonEmptyLines":  23,
+        "ClassName":  "Client"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\BankAccount.java",
+        "NonEmptyLines":  76,
+        "ClassName":  "BankAccount"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\BankProductCatalog.java",
+        "NonEmptyLines":  19,
+        "ClassName":  "BankProductCatalog"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\CompanyClient.java",
+        "NonEmptyLines":  17,
+        "ClassName":  "CompanyClient"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\Loan.java",
+        "NonEmptyLines":  75,
+        "ClassName":  "Loan"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\NaturalPersonClient.java",
+        "NonEmptyLines":  18,
+        "ClassName":  "NaturalPersonClient"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\OperationLog.java",
+        "NonEmptyLines":  46,
+        "ClassName":  "OperationLog"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\Transfer.java",
+        "NonEmptyLines":  69,
+        "ClassName":  "Transfer"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\entity\\User.java",
+        "NonEmptyLines":  33,
+        "ClassName":  "User"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\AccountStatus.java",
+        "NonEmptyLines":  6,
+        "ClassName":  "AccountStatus"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\AccountType.java",
+        "NonEmptyLines":  7,
+        "ClassName":  "AccountType"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\Currency.java",
+        "NonEmptyLines":  6,
+        "ClassName":  "Currency"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\LoanStatus.java",
+        "NonEmptyLines":  10,
+        "ClassName":  "LoanStatus"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\LoanType.java",
+        "NonEmptyLines":  7,
+        "ClassName":  "LoanType"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\OperationType.java",
+        "NonEmptyLines":  23,
+        "ClassName":  "OperationType"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\ProductCategory.java",
+        "NonEmptyLines":  6,
+        "ClassName":  "ProductCategory"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\SystemRole.java",
+        "NonEmptyLines":  10,
+        "ClassName":  "SystemRole"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\TransferStatus.java",
+        "NonEmptyLines":  10,
+        "ClassName":  "TransferStatus"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\model\\enums\\UserStatus.java",
+        "NonEmptyLines":  6,
+        "ClassName":  "UserStatus"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\in\\BankAccountUseCase.java",
+        "NonEmptyLines":  14,
+        "ClassName":  "BankAccountUseCase"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\in\\ClientUseCase.java",
+        "NonEmptyLines":  11,
+        "ClassName":  "ClientUseCase"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\in\\LoanUseCase.java",
+        "NonEmptyLines":  14,
+        "ClassName":  "LoanUseCase"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\in\\OperationLogUseCase.java",
+        "NonEmptyLines":  11,
+        "ClassName":  "OperationLogUseCase"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\in\\TransferUseCase.java",
+        "NonEmptyLines":  15,
+        "ClassName":  "TransferUseCase"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\in\\UserUseCase.java",
+        "NonEmptyLines":  13,
+        "ClassName":  "UserUseCase"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\out\\BankAccountPort.java",
+        "NonEmptyLines":  10,
+        "ClassName":  "BankAccountPort"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\out\\BankProductCatalogPort.java",
+        "NonEmptyLines":  8,
+        "ClassName":  "BankProductCatalogPort"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\out\\ClientPort.java",
+        "NonEmptyLines":  10,
+        "ClassName":  "ClientPort"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\out\\LoanPort.java",
+        "NonEmptyLines":  9,
+        "ClassName":  "LoanPort"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\out\\OperationLogPort.java",
+        "NonEmptyLines":  11,
+        "ClassName":  "OperationLogPort"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\out\\TransferPort.java",
+        "NonEmptyLines":  11,
+        "ClassName":  "TransferPort"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\ports\\out\\UserPort.java",
+        "NonEmptyLines":  13,
+        "ClassName":  "UserPort"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\ActivateUserService.java",
+        "NonEmptyLines":  30,
+        "ClassName":  "ActivateUserService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\ApproveLoanService.java",
+        "NonEmptyLines":  44,
+        "ClassName":  "ApproveLoanService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\ApproveTransferService.java",
+        "NonEmptyLines":  58,
+        "ClassName":  "ApproveTransferService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\BlockBankAccountService.java",
+        "NonEmptyLines":  44,
+        "ClassName":  "BlockBankAccountService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\BlockUserService.java",
+        "NonEmptyLines":  30,
+        "ClassName":  "BlockUserService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\CancelBankAccountService.java",
+        "NonEmptyLines":  43,
+        "ClassName":  "CancelBankAccountService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\CreateClientService.java",
+        "NonEmptyLines":  45,
+        "ClassName":  "CreateClientService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\CreateLoanRequestService.java",
+        "NonEmptyLines":  56,
+        "ClassName":  "CreateLoanRequestService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\CreateTransferService.java",
+        "NonEmptyLines":  81,
+        "ClassName":  "CreateTransferService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\CreateUserService.java",
+        "NonEmptyLines":  45,
+        "ClassName":  "CreateUserService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\DisburseLoanService.java",
+        "NonEmptyLines":  65,
+        "ClassName":  "DisburseLoanService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\ExpirePendingTransfersService.java",
+        "NonEmptyLines":  36,
+        "ClassName":  "ExpirePendingTransfersService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\FindBankAccountService.java",
+        "NonEmptyLines":  29,
+        "ClassName":  "FindBankAccountService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\FindClientService.java",
+        "NonEmptyLines":  25,
+        "ClassName":  "FindClientService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\FindLoanService.java",
+        "NonEmptyLines":  25,
+        "ClassName":  "FindLoanService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\FindProductCatalogService.java",
+        "NonEmptyLines":  24,
+        "ClassName":  "FindProductCatalogService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\FindTransferService.java",
+        "NonEmptyLines":  25,
+        "ClassName":  "FindTransferService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\FindUserService.java",
+        "NonEmptyLines":  32,
+        "ClassName":  "FindUserService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\OpenBankAccountService.java",
+        "NonEmptyLines":  49,
+        "ClassName":  "OpenBankAccountService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\RegisterOperationLogService.java",
+        "NonEmptyLines":  42,
+        "ClassName":  "RegisterOperationLogService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\RejectLoanService.java",
+        "NonEmptyLines":  42,
+        "ClassName":  "RejectLoanService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\RejectTransferService.java",
+        "NonEmptyLines":  39,
+        "ClassName":  "RejectTransferService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\domain\\services\\UpdateClientService.java",
+        "NonEmptyLines":  24,
+        "ClassName":  "UpdateClientService"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\adapters\\JpaBankAccountPortAdapter.java",
+        "NonEmptyLines":  33,
+        "ClassName":  "JpaBankAccountPortAdapter"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\adapters\\JpaBankProductCatalogPortAdapter.java",
+        "NonEmptyLines":  24,
+        "ClassName":  "JpaBankProductCatalogPortAdapter"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\adapters\\JpaClientPortAdapter.java",
+        "NonEmptyLines":  50,
+        "ClassName":  "JpaClientPortAdapter"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\adapters\\JpaLoanPortAdapter.java",
+        "NonEmptyLines":  29,
+        "ClassName":  "JpaLoanPortAdapter"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\adapters\\JpaOperationLogPortAdapter.java",
+        "NonEmptyLines":  29,
+        "ClassName":  "JpaOperationLogPortAdapter"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\adapters\\JpaTransferPortAdapter.java",
+        "NonEmptyLines":  35,
+        "ClassName":  "JpaTransferPortAdapter"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\adapters\\JpaUserPortAdapter.java",
+        "NonEmptyLines":  44,
+        "ClassName":  "JpaUserPortAdapter"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\BankAccountRepository.java",
+        "NonEmptyLines":  12,
+        "ClassName":  "BankAccountRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\BankProductCatalogRepository.java",
+        "NonEmptyLines":  10,
+        "ClassName":  "BankProductCatalogRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\CompanyClientRepository.java",
+        "NonEmptyLines":  9,
+        "ClassName":  "CompanyClientRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\LoanRepository.java",
+        "NonEmptyLines":  9,
+        "ClassName":  "LoanRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\NaturalPersonClientRepository.java",
+        "NonEmptyLines":  9,
+        "ClassName":  "NaturalPersonClientRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\OperationLogRepository.java",
+        "NonEmptyLines":  12,
+        "ClassName":  "OperationLogRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\TransferRepository.java",
+        "NonEmptyLines":  12,
+        "ClassName":  "TransferRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\jpa\\repositories\\UserRepository.java",
+        "NonEmptyLines":  14,
+        "ClassName":  "UserRepository"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\main\\java\\app\\infrastructure\\web\\H2InspectController.java",
+        "NonEmptyLines":  25,
+        "ClassName":  "H2InspectController"
+    },
+    {
+        "Path":  "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Nueva carpeta\\construcciondesoftware2Britneynino\\britneynino\\src\\test\\java\\application\\BritneyninoApplicationTests.java",
+        "NonEmptyLines":  10,
+        "ClassName":  "BritneyninoApplicationTests"
+    }
+]

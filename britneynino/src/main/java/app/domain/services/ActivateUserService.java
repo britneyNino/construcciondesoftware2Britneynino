@@ -11,25 +11,25 @@ import org.springframework.stereotype.Service;
 @Service
 public class ActivateUserService {
 
-    private final UserPort userPort;
+	private final UserPort userPort;
 
-    @Autowired
-    public ActivateUserService(UserPort userPort) {
-        this.userPort = userPort;
-    }
+	@Autowired
+	public ActivateUserService(UserPort userPort) {
+		this.userPort = userPort;
+	}
 
-    public void activateUser(String userId) throws BusinessException, NotFoundException {
-        if (userId == null || userId.isBlank()) {
-            throw new BusinessException("User id is required.");
-        }
-        User user = userPort.findById(userId);
-        if (user == null) {
-            throw new NotFoundException("User not found: " + userId);
-        }
-        if (user.getStatus() == UserStatus.ACTIVE) {
-            throw new BusinessException("User is already active.");
-        }
-        user.setStatus(UserStatus.ACTIVE);
-        userPort.update(user);
-    }
+	public void activateUser(String userId) throws BusinessException, NotFoundException {
+		if (userId == null || userId.isBlank()) {
+			throw new BusinessException("User id is required.");
+		}
+		User user = userPort.findById(userId);
+		if (user == null) {
+			throw new NotFoundException("User not found: " + userId);
+		}
+		if (user.getStatus() == UserStatus.ACTIVE) {
+			throw new BusinessException("User is already active.");
+		}
+		user.setStatus(UserStatus.ACTIVE);
+		userPort.update(user);
+	}
 }

@@ -1,7 +1,5 @@
 package app.domain.model.enums;
 
 public enum Currency {
-    COP,
-    USD,
-    EUR
+	COP, USD, EUR
 }

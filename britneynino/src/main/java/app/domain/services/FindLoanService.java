@@ -11,22 +11,22 @@ import java.util.List;
 @Service
 public class FindLoanService {
 
-    private final LoanPort loanPort;
+	private final LoanPort loanPort;
 
-    @Autowired
-    public FindLoanService(LoanPort loanPort) {
-        this.loanPort = loanPort;
-    }
+	@Autowired
+	public FindLoanService(LoanPort loanPort) {
+		this.loanPort = loanPort;
+	}
 
-    public Loan findById(String loanId) throws NotFoundException {
-        Loan loan = loanPort.findById(loanId);
-        if (loan == null) {
-            throw new NotFoundException("Loan not found: " + loanId);
-        }
-        return loan;
-    }
+	public Loan findById(String loanId) throws NotFoundException {
+		Loan loan = loanPort.findById(loanId);
+		if (loan == null) {
+			throw new NotFoundException("Loan not found: " + loanId);
+		}
+		return loan;
+	}
 
-    public List<Loan> findByClientIdentification(String identification) {
-        return loanPort.findByClientIdentification(identification);
-    }
+	public List<Loan> findByClientIdentification(String identification) {
+		return loanPort.findByClientIdentification(identification);
+	}
 }

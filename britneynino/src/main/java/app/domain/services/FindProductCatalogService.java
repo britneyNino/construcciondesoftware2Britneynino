@@ -11,21 +11,21 @@ import java.util.List;
 @Service
 public class FindProductCatalogService {
 
-    private final BankProductCatalogPort bankProductCatalogPort;
+	private final BankProductCatalogPort bankProductCatalogPort;
 
-    @Autowired
-    public FindProductCatalogService(BankProductCatalogPort bankProductCatalogPort) {
-        this.bankProductCatalogPort = bankProductCatalogPort;
-    }
+	@Autowired
+	public FindProductCatalogService(BankProductCatalogPort bankProductCatalogPort) {
+		this.bankProductCatalogPort = bankProductCatalogPort;
+	}
 
-    public BankProductCatalog findByProductCode(String productCode) throws NotFoundException {
-        if (!bankProductCatalogPort.existsByProductCode(productCode)) {
-            throw new NotFoundException("Product not found in catalog: " + productCode);
-        }
-        return bankProductCatalogPort.findByProductCode(productCode);
-    }
+	public BankProductCatalog findByProductCode(String productCode) throws NotFoundException {
+		if (!bankProductCatalogPort.existsByProductCode(productCode)) {
+			throw new NotFoundException("Product not found in catalog: " + productCode);
+		}
+		return bankProductCatalogPort.findByProductCode(productCode);
+	}
 
-    public List<BankProductCatalog> findAll() {
-        return bankProductCatalogPort.findAll();
-    }
+	public List<BankProductCatalog> findAll() {
+		return bankProductCatalogPort.findAll();
+	}
 }

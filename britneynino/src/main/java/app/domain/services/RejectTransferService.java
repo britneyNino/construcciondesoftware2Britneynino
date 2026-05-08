@@ -14,32 +14,31 @@ import org.springframework.stereotype.Service;
 @Service
 public class RejectTransferService {
 
-    private final TransferPort transferPort;
-    private final OperationLogPort operationLogPort;
+	private final TransferPort transferPort;
+	private final OperationLogPort operationLogPort;
 
-    @Autowired
-    public RejectTransferService(TransferPort transferPort, OperationLogPort operationLogPort) {
-        this.transferPort = transferPort;
-        this.operationLogPort = operationLogPort;
-    }
+	@Autowired
+	public RejectTransferService(TransferPort transferPort, OperationLogPort operationLogPort) {
+		this.transferPort = transferPort;
+		this.operationLogPort = operationLogPort;
+	}
 
-    // Regla enunciado: solo Supervisor de Empresa puede rechazar
-    public void rejectTransfer(String transferId, String supervisorUserId)
-            throws BusinessException, NotFoundException {
-        if (transferId == null || transferId.isBlank()) {
-            throw new BusinessException("Transfer id is required.");
-        }
-        Transfer transfer = transferPort.findById(transferId);
-        if (transfer == null) {
-            throw new NotFoundException("Transfer not found: " + transferId);
-        }
-        // Regla encapsulada en entidad: solo PENDING_APPROVAL -> REJECTED
-        transfer.reject(supervisorUserId);
-        transferPort.update(transfer);
+	// Regla enunciado: solo Supervisor de Empresa puede rechazar
+	public void rejectTransfer(String transferId, String supervisorUserId) throws BusinessException, NotFoundException {
+		if (transferId == null || transferId.isBlank()) {
+			throw new BusinessException("Transfer id is required.");
+		}
+		Transfer transfer = transferPort.findById(transferId);
+		if (transfer == null) {
+			throw new NotFoundException("Transfer not found: " + transferId);
+		}
+		// Regla encapsulada en entidad: solo PENDING_APPROVAL -> REJECTED
+		transfer.reject(supervisorUserId);
+		transferPort.update(transfer);
 
-        OperationLog log = new OperationLog(OperationType.TRANSFER_REJECTED, supervisorUserId,
-                SystemRole.COMPANY_SUPERVISOR, transferId);
-        log.addDetail("supervisorUserId", supervisorUserId);
-        operationLogPort.append(log);
-    }
+		OperationLog log = new OperationLog(OperationType.TRANSFER_REJECTED, supervisorUserId,
+				SystemRole.COMPANY_SUPERVISOR, transferId);
+		log.addDetail("supervisorUserId", supervisorUserId);
+		operationLogPort.append(log);
+	}
 }

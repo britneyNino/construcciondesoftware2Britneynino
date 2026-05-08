@@ -1,0 +1,57 @@
+﻿{
+    "bank_product_catalog":  [
+                                 {
+                                     "PRODUCT_CODE":  "PR-001",
+                                     "PRODUCT_NAME":  "Cuenta Corriente BÃ¡sica",
+                                     "CATEGORY":  "ACCOUNT",
+                                     "REQUIRES_APPROVAL":  false
+                                 },
+                                 {
+                                     "PRODUCT_CODE":  "PR-002",
+                                     "PRODUCT_NAME":  "Cuenta Ahorros Plus",
+                                     "CATEGORY":  "ACCOUNT",
+                                     "REQUIRES_APPROVAL":  false
+                                 }
+                             ],
+    "operation_logs":  [
+
+                       ],
+    "transfers":  [
+                      {
+                          "TRANSFER_ID":  "TR-1001",
+                          "AMOUNT":  25000.00,
+                          "CREATED_AT":  "2026-05-08T00:15:52.006Z",
+                          "APPROVAL_DATE":  null,
+                          "STATUS":  "PENDING",
+                          "DESCRIPTION":  "Pago factura",
+                          "SOURCE_ACCOUNT_ID":  "ACC-1001",
+                          "DESTINATION_ACCOUNT_ID":  "ACC-2001",
+                          "CREATOR_USER_ID":  "U-1001",
+                          "APPROVER_USER_ID":  null
+                      }
+                  ],
+    "bank_accounts":  [
+                          {
+                              "PRODUCT_ID":  "ACC-1001",
+                              "ACCOUNT_NUMBER":  "ACC-1001",
+                              "ACCOUNT_TYPE":  "CHECKING",
+                              "CURRENT_BALANCE":  100000.00,
+                              "STATUS":  "ACTIVE",
+                              "CURRENCY":  "COP",
+                              "CLIENT_ID":  "CL-1001",
+                              "CREATION_DATE":  null,
+                              "PRODUCT_CATEGORY":  null
+                          },
+                          {
+                              "PRODUCT_ID":  "ACC-2001",
+                              "ACCOUNT_NUMBER":  "ACC-2001",
+                              "ACCOUNT_TYPE":  "SAVINGS",
+                              "CURRENT_BALANCE":  50000.00,
+                              "STATUS":  "ACTIVE",
+                              "CURRENCY":  "COP",
+                              "CLIENT_ID":  "CL-2001",
+                              "CREATION_DATE":  null,
+                              "PRODUCT_CATEGORY":  null
+                          }
+                      ]
+}
